@@ -6,30 +6,33 @@ This project is a simple Kanban board application, built as an MVP (Minimum Viab
 
 The project follows a standard structure for a modern web application:
 
--   `public/`: Contains static assets that are directly served.
--   `src/`: Contains the main source code.
-    -   `assets/`: Images, fonts, and other media.
-    -   `components/`: Reusable UI components.
-    -   `state/`: State management logic.
-    -   `styles/`: Global styles and CSS variables.
-    -   `main.js`: The main entry point of the application.
--   `tests/`: Contains tests for the application.
+- `public/`: Contains static assets that are directly served.
+- `src/`: Contains the main source code.
+  - `assets/`: Images, fonts, and other media.
+  - `components/`: Reusable UI components.
+  - `state/`: State management logic.
+  - `styles/`: Global styles and CSS variables.
+  - `main.js`: The main entry point of the application.
+- `tests/`: Contains tests for the application.
 
 ## Getting Started
 
 To get the project up and running, follow these steps:
 
 1.  **Clone the repository:**
+
     ```sh
     git clone <repository-url>
     ```
 
 2.  **Navigate to the project directory:**
+
     ```sh
     cd kanban-mvp
     ```
 
 3.  **Install dependencies:**
+
     ```sh
     npm install
     ```
@@ -40,6 +43,33 @@ To get the project up and running, follow these steps:
     ```
 
 This will start the Vite development server, and you can view the application in your browser at the specified URL.
+
+## Code Quality
+
+This project uses ESLint and Prettier to ensure code quality and a consistent style.
+
+- **ESLint**: Analyzes the code to find and fix problems.
+- **Prettier**: An opinionated code formatter that enforces a consistent style.
+
+You can use the following scripts to maintain code quality:
+
+### `npm run lint`
+
+Checks all JavaScript files in the `src` directory for linting errors.
+
+### `npm run lint:fix`
+
+Automatically fixes any fixable linting errors in the `src` directory.
+
+### `npm run format`
+
+Formats all supported files in the project directory using Prettier.
+
+### `npm run format:check`
+
+Checks if all supported files are formatted correctly without actually changing them. This is useful for CI environments.
+
+It's recommended to run `npm run lint` and `npm run format:check` before committing your changes.
 
 ## Available Scripts
 
