@@ -1,11 +1,5 @@
 # Kanban MVP
 
-## Modalità GitHub-only
-Questo repository è preparato per Vite ma **non esegue** alcun comando su GitHub web.
-- Non usare `npm install`, `npm run dev`, `npm run build` su GitHub.
-- L’esecuzione avverrà solo in un ambiente idoneo (locale o Codespaces).
-- I file chiave sono: `index.html`, `src/main.js`, `vite.config.js` (placeholder).
-
 This project is a simple Kanban board application, built as an MVP (Minimum Viable Product). It is set up to use Vite for a fast development experience.
 
 ## Project Structure

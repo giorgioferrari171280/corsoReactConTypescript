@@ -1,9 +1,20 @@
 {
   "name": "kanban-mvp",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Skeleton GitHub-only per Kanban MVP. Non eseguire npm/yarn/pnpm su GitHub web.",
-  "keywords": ["kanban", "mvp", "github-only", "vite-skeleton"],
-  "author": "Giorgio + coding agent",
-  "license": "UNLICENSED"
+  "version": "1.0.0",
+  "description": "A simple Kanban board application",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kanban",
+    "vite",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.1.6"
+  }
 }
